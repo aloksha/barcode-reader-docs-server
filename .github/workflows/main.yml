@@ -133,7 +133,7 @@ jobs:
           mkdir -p ./DBRDocRestructured/_site/web/
           mv ./DBRDocRestructuredJS/_site/* ./DBRDocRestructured/_site/web/
           mv ./DBRDocRestructuredMobile/_site/* ./DBRDocRestructured/_site/mobile/
-          mv ./DBRDocRestructuredServer_site/* ./DBRDocRestructured/_site/server/
+          mv ./DBRDocRestructuredServer/_site/* ./DBRDocRestructured/_site/server/
 
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
